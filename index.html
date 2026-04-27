@@ -11,16 +11,16 @@
   :root {
     --beige:        #FAF3EA;
     --beige-soft:   #F4EADD;
-    --plum:         #2A0E26;
+    --plum:         #1F0A1C;
     --plum-soft:    #361630;
     --cream:        #F5EDE4;
-    --cream-soft:   rgba(245, 237, 228, 0.92);
+    --cream-soft:   #F5EDE4;
     --gold:         #D4A84B;
     --gold-bright:  #E2B84C;
     --gold-deep:    #B8923A;
     --line:         rgba(212, 168, 75, 0.5);
     --line-gold:    rgba(212, 168, 75, 0.7);
-    --line-cream:   rgba(226, 184, 76, 0.3);
+    --line-cream:   rgba(226, 184, 76, 0.4);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -32,7 +32,7 @@
     background: var(--beige);
     color: var(--plum);
     line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto;
     overflow-x: hidden;
   }
 
@@ -116,7 +116,7 @@
     line-height: 1;
     display: block;
     margin-bottom: 3px;
-    text-shadow: 0 1px 3px rgba(180, 140, 50, 0.2);
+    
   }
   .hero-stat .lbl {
     font-family: 'Cormorant Garamond', serif;
@@ -234,7 +234,7 @@
     font-family: 'Forum', serif;
     font-size: 30px;
     color: var(--gold-bright);
-    text-shadow: 0 0 12px rgba(226, 184, 76, 0.4);
+    
     margin-bottom: 18px;
     display: block;
   }
@@ -303,7 +303,7 @@
     font-style: italic;
     font-size: 18px;
     color: var(--plum);
-    opacity: 0.65;
+    
     margin-top: 18px;
     text-align: center;
   }
@@ -329,7 +329,7 @@
     
     line-height: 1.55;
     color: var(--plum);
-    opacity: 0.85;
+    
     max-width: 520px;
     margin: 0 auto;
   }
@@ -338,7 +338,7 @@
     height: 2.5px;
     background: var(--gold);
     margin: 24px auto;
-    box-shadow: 0 0 8px rgba(212, 168, 75, 0.3);
+    
   }
 
   /* ═══ LAYER BLOCKS ═══ */
@@ -360,7 +360,7 @@
     margin-bottom: 12px;
     display: block;
     font-weight: 400;
-    text-shadow: 0 1px 2px rgba(180, 140, 50, 0.15);
+    
   }
   .layer-block h3 {
     font-family: 'Forum', serif;
@@ -388,7 +388,7 @@
     font-family: 'Forum', Georgia, serif;
     font-style: italic;
     color: var(--plum);
-    opacity: 0.85;
+    
     font-size: 18px;
     
     padding-left: 18px;
@@ -478,7 +478,7 @@
     color: var(--plum);
     margin-bottom: 12px;
   }
-  .about-text-block p em { font-style: italic; opacity: 0.85; }
+  .about-text-block p em { font-style: italic;  }
   .about-stats-row {
     display: flex;
     gap: 32px;
@@ -489,7 +489,7 @@
     font-family: 'Forum', serif;
     font-size: 30px;
     color: var(--gold);
-    text-shadow: 0 1px 2px rgba(180, 140, 50, 0.15);
+    
     line-height: 1;
     display: block;
     margin-bottom: 4px;
@@ -528,7 +528,7 @@
     height: 2.5px;
     background: var(--gold-bright);
     margin: 0 auto;
-    box-shadow: 0 0 8px rgba(226, 184, 76, 0.35);
+    
   }
   .format-card {
     border: 1px solid var(--line-cream);
@@ -581,7 +581,7 @@
     font-size: 18px;
     
     color: var(--cream-soft);
-    opacity: 0.85;
+    
     margin-bottom: 14px;
     line-height: 1.55;
   }
@@ -598,7 +598,7 @@
     font-family: 'Forum', Georgia, serif;
     font-style: italic;
     color: var(--cream);
-    opacity: 0.5;
+    opacity: 0.6;
     font-size: 16px;
     margin-top: 20px;
   }
